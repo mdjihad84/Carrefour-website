@@ -230,6 +230,7 @@
 }
 .card-item img {
     width: 300px;
+    border-radius: 12px;
 }
 .card-item h3 {
     font-size: 28px;
@@ -241,3 +242,85 @@
     font-size: 20px;
     font-family: system-ui;
 }
+.Card-btn {
+    text-align: center;
+    margin: 50px;
+}
+.Card-btn button {
+    font-size: 28px;
+    font-family: sans-serif;
+    padding: 13px 83px;
+    border-radius: 30px;
+    background-color: #b9403c;
+    border: navajowhite;
+    color: white;
+    cursor: pointer;
+}
+/* experience area */
+.experience-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.experience-images img {
+    width: 40rem;
+}
+.experience-sub-images img {
+    width: 317px;
+}
+.brand-name {
+    font-size: 23px;
+    color: #b61212;
+    font-family: sans-serif;
+}
+.experience-content h2 span {
+    font-size: 50px;
+    color: #b61212;
+    font-family: sans-serif;
+}
+.experience-content h2 {
+    font-size: 50px;
+    width: 260px;
+    font-family: system-ui;
+}
+.experience-content p {
+    font-size: 20px;
+    width: 432px;
+    line-height: 28px;
+    font-family: fangsong;
+    font-weight: 500;
+}
+.experience-icons {
+    display: flex;
+    gap: 22px;
+
+}
+.experience-icons img {
+    width: 70px;
+    height: 65px;
+    border-radius: 10px;
+}
+.sub-icon {
+    width: 100px;
+    height: 85px;
+    background-color: #b9403c;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience-badge {
+    display: flex;
+    align-items: center;
+    background-color: #e4e4e4;
+    width: 356px;
+    height: 68px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 30px;
+    border-left: 6px solid #b9403c;
+}
+.experience-label {
+    margin-left: -90px;
+}
+
