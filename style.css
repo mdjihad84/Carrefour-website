@@ -114,6 +114,11 @@
 }
 /* Menu section */
 .menu-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.menu-top_title {
     text-align: -webkit-center;
 }
 .menu-subtitle {
@@ -128,10 +133,111 @@
 }
 .menu-card {
     position: relative;
+    width: 300px;
 }
 .menu-card img {
     width: 325px;
 }
 .menu-overlay {
     position: absolute;
+    bottom: 15px;
+    color: white;
+    left: 15px;
+    z-index: 10;
+}
+.menu-dollar h2 {
+    top: 0;
+    right: 0;
+    color: white;
+    width: 100px;
+    text-align: center;
+    border-radius: 32px;
+    border: 1px solid;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 32px;
+    position: absolute;
+}
+.menu-overlay h3 {
+    font-size: 45px;
+    margin: 0;
+    font-family: 'Noto Sans KR';
+}
+.menu-overlay p {
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Noto Sans KR';
+}
+/*  chicken area  */
+.chicken-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('./images/chicken-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.chicken-left img {
+    width: 490px;
+}
+.chicken-right h2 {
+    font-size: 110px;
+    color: white;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+.chicken-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -13rem;
+    margin-bottom: -45px;
+}
+.chicken-logo img {
+    width: 180px;
+}
+/* Food area */
+.menu-top_title {
+    margin-bottom: 60px;
+}
+.food-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-item {
+    width: 403px;
+  
+}
+.food-item img {
+    width: 270px;
+}
+/* Card area */
+.card-top_title {
+    text-align: -webkit-center;
+    margin: 75px;
+}
+.card-content {
+    display: flex;
+    justify-content: space-around;
+}
+.card-item {
+    width: 300px;
+    background-color: beige;
+    padding: 0px 0 15px;
+    text-align: center;
+    border-radius: 20px;
+}
+.card-item img {
+    width: 300px;
+}
+.card-item h3 {
+    font-size: 28px;
+    margin: 20px;
+    font-family: sans-serif;
+
+}
+.card-item p {
+    font-size: 20px;
+    font-family: system-ui;
 }
