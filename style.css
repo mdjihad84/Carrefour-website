@@ -323,4 +323,66 @@
 .experience-label {
     margin-left: -90px;
 }
-
+/* coffee-section */
+.coffee-container {
+    background-image: url(./images/coffee-bg.png);
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    align-items: anchor-center;
+    margin-top: 85px;
+}
+.coffee-left {
+    margin-left: 110px;
+}
+.coffee-left h2 {
+    font-size: 52px;
+    width: 415px;
+    font-family: system-ui;
+    margin: 11px 0px;
+    color: white;
+}
+.coffee-left p {
+    font-size: 20px;
+    width: 432px;
+    line-height: 28px;
+    font-family: fangsong;
+    font-weight: 500;
+    color: white;
+}
+.coffee-right img {
+    width: 482px;
+}
+/* carrefour section */
+.carrefour-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+.carrefour-left h2 {
+    font-size: 52px;
+    width: 415px;
+    font-family: system-ui;
+    margin: 11px 0px;
+    color: black;
+}
+.carrefour-left p {
+    font-size: 20px;
+    width: 568px;
+    line-height: 28px;
+    font-family: fangsong;
+    font-weight: 500;
+    color: black;
+    line-height: 30px;
+}
+.carrefour-right img {
+    width: 482px;
+}
+.carrefour-bottom_img img {
+    width: 380px;
+    margin-left: -122px;
+    margin-top: -70px;
+}
