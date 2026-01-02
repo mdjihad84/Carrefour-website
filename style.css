@@ -1,0 +1,92 @@
+/* Header section */
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    font-size: 22px;
+}
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.nav-item a:hover  {
+    text-decoration: none;
+    color: rgb(131, 8, 8);
+    font-family: sans-serif;
+}
+/* Hero section */
+.site-hero {
+    height: 680px;
+    position: relative;
+    background-image: url('./images/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.hero-content {
+    margin-left: 80px;
+}
+.hero-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10rem;
+    margin: 0;
+    color: white;
+}
+.hero-subtitle {
+    font-size: 20px;
+    width: 492px;
+    line-height: 30px;
+    color: white;
+}
+.hero-btn {
+    padding: 12px 45px;
+    background-color: tomato;
+    border: navajowhite;
+    font-size: 17px;
+    color: wheat;
+    border-radius: 10px;
+}
+/* <!-- Features section --> */
+.features-left span {
+    font-size: 23px;
+    color: #b61212;
+    font-family: sans-serif;
+}
+.features-title {
+    font-size: 44px;
+    width: 352px;
+    font-family: system-ui;
+    margin: 11px 0px;
+}
+.features-subtitle {
+    font-size: 20px;
+    width: 432px;
+    line-height: 28px;
+    font-family: fangsong;
+    font-weight: 500;
+}
+.features-content {
+    font-size: 18px;
+    width: 360px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.features-content p strong {
+    font-weight: bolder;
+    font-family: system-ui;
+    font-size: 21px;
+}
