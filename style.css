@@ -1,3 +1,8 @@
+
+body {
+  overflow-x: hidden;
+}
+
 /* Header section */
 .site-header {
     display: flex;
@@ -539,3 +544,65 @@
     display: flex;
     margin: 36px;
 }
+
+/* Responsive design */
+/* Mobile */
+@media (max-width: 576px) { 
+    .site-hero {
+        width: 74rem;
+    }
+    .features-container {
+        flex-direction: row;
+        margin-right: -53rem;
+    }
+    .menu-content {
+        display: grid;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .menu-card img {
+        width: 71rem;
+    }
+    .chicken-left img {
+        width: 73rem;
+    }
+    .menu-top_title {
+        margin-bottom: 60px;
+        margin-right: -54rem;
+        margin-top: 95px;
+    }
+    .food-item_main img {
+        width: 64rem;
+        margin-left: 51rem;
+    }
+    .card-content {
+        display: grid;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .card-top_title {
+        text-align: -webkit-center;
+        margin: 75px;
+        margin-bottom: 60px;
+        margin-right: -47rem;
+        margin-top: 95px;
+    }
+    .card-item img {
+        width: 67rem;
+        border-radius: 12px;
+    }
+    .experience-container {
+        flex-direction: row;
+        gap: 87px;
+        flex-wrap: nowrap;
+        display: flex;
+        margin-left: 30px;
+}
+}
+       
+/* Tablet */
+@media (max-width: 768px) { }
+
+/* Laptop */
+@media (max-width: 1024px) { }
+
