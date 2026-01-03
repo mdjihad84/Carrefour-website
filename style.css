@@ -403,3 +403,66 @@
     text-align: center;
     color: #707070;
 }
+.carrefour-right_img img {
+    width: 345px;
+    margin-top: -50px;
+    float: right;
+    margin-left: -18rem;
+}
+
+/* coffee menu section */
+.menu-container_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6rem;
+}
+.coffee-Menu_title {
+    text-align: -webkit-center;
+    margin: 75px;
+}
+.coffee-Menu_title h2 {
+    font-size: 40px;
+    color: #603809;
+    margin: 0;
+}
+.coffee-Menu_title p{
+    font-size: 23px;
+    width: 624px;
+    text-align: center;
+    color: #707070;
+}
+.coffee-Menu_content {
+    display: flex;
+    align-items: center;
+}
+.coffee-Menu_item {
+    width: 253px;
+}
+.coffee-Menu_item h3{
+    color: #160d0d;
+    font-size: 30px;
+    margin: 0;
+    margin-top: 40px;
+    font-weight: bolder;
+
+}
+.coffee-Menu_item p{
+    color: #4f4f4f;
+}
+.coffee-cup_img img {
+    width: 545px;
+}
+/* form section */
+.form-content {
+    text-align: -webkit-center;
+    margin: 75px;
+}
+.form-content h2 {
+    font-size: 40px;
+    color: #603809;
+    margin: 0;
+}
+.form-content input {
+      
+}
