@@ -1,6 +1,7 @@
 
 body {
   overflow-x: hidden;
+  max-width: 1505px;
 }
 
 /* Header section */
@@ -119,9 +120,12 @@ body {
 }
 /* Menu section */
 .menu-content {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    
 }
 .menu-top_title {
     text-align: -webkit-center;
@@ -224,7 +228,10 @@ body {
 }
 .card-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 3rem;
+
 }
 .card-item {
     width: 300px;
@@ -389,7 +396,7 @@ body {
 }
 .carrefour-bottom_img img {
     width: 380px;
-    margin-left: -122px;
+    margin-left: -8em;
     margin-top: -70px;
 }
 /* cafe & milk section */
@@ -588,7 +595,7 @@ body {
         margin-top: 95px;
     }
     .card-item img {
-        width: 67rem;
+        width: 85rem;
         border-radius: 12px;
     }
     .experience-container {

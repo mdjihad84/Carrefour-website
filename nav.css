@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: bisque;
+    margin-top: -7px;
+    border-radius: 7px;
+}
+
+nav {
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+    margin-right: 50px;
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+nav li a:hover {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+
+}
